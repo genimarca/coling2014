@@ -5,20 +5,7 @@ import weka.core.Instances;
 import weka.core.converters.ConverterUtils.DataSource;
 
 /**
- * To reproduce our experiments, please use Weka 3.7.9 + LibSVM 1.0.5
- * Our reported results:
- * iSOL COAH	acc.	prec.	rec.	f1
- *		0.9209	0.9264	0.8951	0.9081
- * iSOL MC	acc.	prec.	rec.	f1
- * 		0.6601	0.6606	0.6607	0.6601
- * SentiCon COAH	acc.	prec.	rec.	f1
- * 		0.8909	0.89	0.8614	0.8732
- * SentiCon MC	acc.	prec.	rec.	f1
- * 		0.6537	0.6542	0.6542	0.6537
- * Combined COAH	acc.	prec.	rec.	f1
- * 		0.9379	0.9372	0.9223	0.9292
- * Combined MC	acc.	prec.	rec.	f1
- * 		0.6838	0.6837	0.6839	0.6837
+ * dTo reproduce our experiments, please use Weka 3.7.9 + LibSVM 1.0.5
  * @author fermin
  */
 public class ReproduceExperiments {
